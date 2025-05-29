@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sante News - Admin Login</title>
+</head>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .all{
+            background-color: aqua;
+        }
+        
+
+        input[type='email']{
+            width: 300px;
+            margin-top: 20px;
+            height: 30px;
+        }
+
+        input[type='password']{
+            width: 300px;
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        button{
+            width: 300px;
+            margin-top: 20px;
+            border: none;
+            font-size: 17px;
+            color: #fff;
+            outline: none;
+            border-radius: 5px;
+            height: 30px;
+            background-color: rgb(200, 62, 27);
+        }
+
+        ::placeholder{
+            padding-left: 5px;
+        }
+    </style>
+<body>
+    <!--container-->
+    <div class="container">
+        <div class="all">
+            <h1>Admin Login</h1>
+
+            <form action="#">
+                <input type="email" name="email" placeholder="Enter your email"><br>
+                <input type="password" name="password" placeholder="Enter Your password"><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
